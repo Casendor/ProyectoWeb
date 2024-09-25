@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desplegables Anidados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Contratos</h1>
+
+    <div class="accordion">
+        <!-- Primer desplegable -->
+        <div class="accordion-item">
+            <button class="accordion-header">Contratos miMovistar</button>
+            <div class="accordion-content">
+                <button class="accordion-header">Subcategoría 1</button>
+                <div class="accordion-content">
+                    <div class="switches">
+                        <p>Opción 1 <input type="checkbox" checked></p>
+                        <p>Opción 2 <input type="checkbox"></p>
+                    </div>
+                </div>
+                <button class="accordion-header">Subcategoría 2</button>
+                <div class="accordion-content">
+                    <div class="switches">
+                        <p>Opción A <input type="checkbox"></p>
+                        <p>Opción B <input type="checkbox" checked></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segundo desplegable -->
+        <div class="accordion-item">
+            <button class="accordion-header">Personalización básica enriquecida</button>
+            <div class="accordion-content">
+                <button class="accordion-header">Movistar</button>
+                <div class="accordion-content">
+                    <div class="switches">
+                        <p>Opción 1 <input type="checkbox"></p>
+                        <p>Opción 2 <input type="checkbox"></p>
+                    </div>
+                </div>
+                <button class="accordion-header">Subcategoría 2</button>
+                <div class="accordion-content">
+                    <div class="switches">
+                        <p>Opción A <input type="checkbox"></p>
+                        <p>Opción B <input type="checkbox"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
