@@ -1,5 +1,11 @@
+body {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 h1 {
     text-align: center;
+    top: 50%;
 }
 
 h2 {
@@ -20,12 +26,15 @@ h2 {
     font-family: Regular, Arial, Helvetica;
 }
 
-.accordion {
-    max-width: 100%;
-    margin: 0 auto;
+.ambito {
+    font-family: Light, Arial, Helvetica;
+    color: #5cb615;
+    font-size: 1.375rem;
+    text-align: center;
+    padding: 10px 0 0;
 }
 
-.accordion-item {
+.accordion {
     border: 1px solid #ccc;
     margin: 10px 0;
 }
