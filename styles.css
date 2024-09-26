@@ -54,7 +54,12 @@ h2 {
     margin-left: 60px;
 }
 
+.accordion-content.open {
+    display: block; /* El contenido estará desplegado si tiene la clase 'open' */
+}
+
 .accordion-content {
+    display: none;
     background-color: white;
     padding: 10px;
     display: none;
